@@ -197,6 +197,10 @@ body {
   height: 112px;
   border-radius: 4px;
 }
+.benefits-icons {
+  justify-content: center;
+  align-items: center;
+}
 
 .benefits {
   padding-top: 120px;
