@@ -186,6 +186,17 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
+.benefits-icon {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.benefits-icon-list {
+  background-color: var(--potrf-botton-bgr);
+  width: 264px;
+  height: 112px;
+  border-radius: 4px;
+}
 
 .benefits {
   padding-top: 120px;
