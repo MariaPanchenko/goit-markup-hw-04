@@ -322,6 +322,10 @@ p {
   border-radius: 50%;
   background-color: #4d5ae5;
 }
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: var(--hover-button);
+}
 
 /* team */
 
