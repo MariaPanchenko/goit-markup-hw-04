@@ -308,6 +308,21 @@ p {
   padding-bottom: 32px;
 }
 
+.team-social {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.team-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+
 /* team */
 
 /* customers */
@@ -327,6 +342,9 @@ p {
   padding-bottom: 120px;
 }
 .customers-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 168px;
   height: 88px;
   border: 1px solid #8e8f99;
@@ -340,23 +358,26 @@ p {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+.footer-main {
+  display: flex;
+}
+.footer-left {
+  margin-right: 120px;
+}
 
-.team-social {
+.footer-social {
   display: flex;
   justify-content: center;
   gap: 24px;
 }
-.team-social-link {
+.footer-social-link {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: #4d5ae5;
-}
-.team-social-icon {
-  fill: #e7e9fc;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .footer-header {
@@ -366,6 +387,7 @@ p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
 /* .footer-logotype {
   margin-bottom: 16px;
