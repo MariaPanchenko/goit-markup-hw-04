@@ -8,6 +8,7 @@
   --potrf-botton-bgr: #f4f4fd;
   --border-cards: #e7e9fc;
   --portfolio-color-btn: #4d5ae5;
+  --accent-link: #31d0aa;
 }
 
 h1,
@@ -365,7 +366,7 @@ p {
 
 .customers-link:hover,
 .customers-link:focus {
-  border-color: var(--accent-color);
+  border-color: var(--hover-button);
 }
 
 /* footer */
@@ -399,7 +400,7 @@ p {
 }
 .footer-social-link:hover,
 .footer-social-link:focus {
-  background-color: var(--accent-color);
+  background-color: var(--accent-link);
 }
 
 .footer-header {
